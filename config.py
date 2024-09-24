@@ -39,11 +39,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botz_x_hub")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SpotifyxUpdates")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Alice_x_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -62,8 +62,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFtP-gAb9FHeqvFniD1Ncxy6A25tHZEiwpmyRTHDTxX6D9lX1EOKzfTHbWVNKVc52CSefLNFbcVqZL-PEaeuVRx6s2MiKsbxM9dod00sc02-jiBEVlMV2I0zZr3PvkY3LZgH4x64Cw3sWcqgdfs4nr-ZnoRMWH1Ny4SK1mFjeYSuRH5OSGh4OC7ceN1Xjr3UDHHgrhnspL6XJvawEhFo5Nc8IotjZ2iWboOtHxJHq_U_lN0ntK100SMSB_NWVkmc7QOeD8opXxdpifD8EcAY5BxjVW5cAAM44TF_q5P-IJGDDjd04D844weC4UAzsO7gVPBB7fdd-ghzYQ1fRqtAd8_R-34wgAAAAFaybePAA")
-STRING2 = getenv("STRING_SESSION2", "BQFtP-gAm_Z-YZg2YPJX-aePeQGAaegppT-KJ1wyfRqmhiNAggsRHXkAHF8U0Q9pPBLRqCLY7jL6iAjnYhAt5onoeCLeNGHlGqqS6uSOUG55uQu6Q5il6Q3Oc2lFWrzO8HdOZihJFHTo6mENn0TAe-W4oRHHSKcWUzihJqrJGgZiTiIMYT-NIMJPaDEiMIDNTEdUSLe8Jmw3DamAIrsp319pTEFOsbUJ-GTdvGxQkWhnaTYj1WgvrcA40bgM7Cf_Ycjll31aet0yzYZThEmnMRqNllYd8bNcwxkpmk1ctaKrBuvxVkyM3RmhgX2Ed3mNsIFhVMUbpLRgfjm52GdxCZmPoUFjVwAAAAGUzntfAA")
+STRING1 = getenv("STRING_SESSION", None)
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
