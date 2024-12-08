@@ -2,7 +2,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
-from config import LOG_GROUP_ID as LOG_ID
+from config import LOGGER_ID as LOG_ID
 from AnonXMusic import app
 from AnonXMusic.misc import SUDOERS
 from AnonXMusic.utils.inline import close_markup
