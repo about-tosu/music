@@ -19,15 +19,6 @@ import glob
 import random
 import logging
 
-
-import requests
-import os
-import time
-
-
-
-
-
 def cookie_txt_file():
     folder_path = f"{os.getcwd()}/cookies"
     filename = f"{os.getcwd()}/cookies/logs.csv"
@@ -306,12 +297,6 @@ class YouTubeAPI:
             link = self.base + link
         loop = asyncio.get_running_loop()
         def audio_dl():
-            try:
-                sexid = extract_video_id(link)
-                path = api_dl(sexid)
-                return path
-            except:
-                print("api failed")
             ydl_optssx = {
                 "format": "bestaudio/best",
                 "outtmpl": "downloads/%(id)s.%(ext)s",
